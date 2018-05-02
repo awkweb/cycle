@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E25FCCB1209A429500812690 /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = E25FCCB0209A429500812690 /* stations.json */; };
 		E2AB9B5E209211F3004EB242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AB9B5D209211F3004EB242 /* AppDelegate.swift */; };
-		E2AB9B60209211F3004EB242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AB9B5F209211F3004EB242 /* ViewController.swift */; };
-		E2AB9B63209211F3004EB242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AB9B61209211F3004EB242 /* Main.storyboard */; };
+		E2AB9B60209211F3004EB242 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AB9B5F209211F3004EB242 /* AppViewController.swift */; };
 		E2AB9B65209211F3004EB242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AB9B64209211F3004EB242 /* Assets.xcassets */; };
 		E2AB9B68209211F3004EB242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2AB9B66209211F3004EB242 /* LaunchScreen.storyboard */; };
+		E2C40061209220E700AA6277 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C40060209220E700AA6277 /* Station.swift */; };
+		E2C4006D2092219300AA6277 /* StationProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C4006C2092219300AA6277 /* StationProperties.swift */; };
+		E2C4006F2092259700AA6277 /* JSONAbleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C4006E2092259700AA6277 /* JSONAbleType.swift */; };
+		E2C40071209225BD00AA6277 /* StationGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C40070209225BD00AA6277 /* StationGeometry.swift */; };
+		E2C40074209229EE00AA6277 /* CitibikeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C40073209229EE00AA6277 /* CitibikeAPI.swift */; };
+		E2C4007620922B1C00AA6277 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C4007520922B1C00AA6277 /* Networking.swift */; };
+		E2C4008A20923D8900AA6277 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C4008120923D8900AA6277 /* RxSwift.framework */; };
+		E2C4008B20923D8900AA6277 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C4008220923D8900AA6277 /* Result.framework */; };
+		E2C4008C20923D8900AA6277 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C4008320923D8900AA6277 /* RxCocoa.framework */; };
+		E2C4008D20923D8900AA6277 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C4008420923D8900AA6277 /* Alamofire.framework */; };
+		E2C4008F20923D8900AA6277 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C4008620923D8900AA6277 /* SwiftyJSON.framework */; };
+		E2C4009120923D8900AA6277 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C4008820923D8900AA6277 /* Moya.framework */; };
+		E2C4009220923D8900AA6277 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C4008920923D8900AA6277 /* RxMoya.framework */; };
+		E2C400942092512400AA6277 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C400932092512400AA6277 /* Region.swift */; };
+		E2C400A02092640800AA6277 /* Observable+JSONAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C4009F2092640800AA6277 /* Observable+JSONAble.swift */; };
+		E2C400A320927E6400AA6277 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C400A220927E6400AA6277 /* StationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E25FCCB0209A429500812690 /* stations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stations.json; sourceTree = "<group>"; };
 		E2AB9B5A209211F3004EB242 /* cycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AB9B5D209211F3004EB242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2AB9B5F209211F3004EB242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E2AB9B62209211F3004EB242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2AB9B5F209211F3004EB242 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		E2AB9B64209211F3004EB242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2AB9B67209211F3004EB242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2AB9B69209211F3004EB242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C40060209220E700AA6277 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		E2C4006C2092219300AA6277 /* StationProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationProperties.swift; sourceTree = "<group>"; };
+		E2C4006E2092259700AA6277 /* JSONAbleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONAbleType.swift; sourceTree = "<group>"; };
+		E2C40070209225BD00AA6277 /* StationGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationGeometry.swift; sourceTree = "<group>"; };
+		E2C40073209229EE00AA6277 /* CitibikeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitibikeAPI.swift; sourceTree = "<group>"; };
+		E2C4007520922B1C00AA6277 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		E2C4008120923D8900AA6277 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		E2C4008220923D8900AA6277 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		E2C4008320923D8900AA6277 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		E2C4008420923D8900AA6277 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		E2C4008620923D8900AA6277 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		E2C4008820923D8900AA6277 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		E2C4008920923D8900AA6277 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		E2C400932092512400AA6277 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		E2C4009F2092640800AA6277 /* Observable+JSONAble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observable+JSONAble.swift"; sourceTree = "<group>"; };
+		E2C400A220927E6400AA6277 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C4008A20923D8900AA6277 /* RxSwift.framework in Frameworks */,
+				E2C4008B20923D8900AA6277 /* Result.framework in Frameworks */,
+				E2C4008C20923D8900AA6277 /* RxCocoa.framework in Frameworks */,
+				E2C4008D20923D8900AA6277 /* Alamofire.framework in Frameworks */,
+				E2C4008F20923D8900AA6277 /* SwiftyJSON.framework in Frameworks */,
+				E2C4009120923D8900AA6277 /* Moya.framework in Frameworks */,
+				E2C4009220923D8900AA6277 /* RxMoya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E25FCCAF209A427500812690 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E25FCCB0209A429500812690 /* stations.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		E2AB9B51209211F3004EB242 = {
 			isa = PBXGroup;
 			children = (
 				E2AB9B5C209211F3004EB242 /* cycle */,
 				E2AB9B5B209211F3004EB242 /* Products */,
+				E2C4005A2092144900AA6277 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +102,70 @@
 		E2AB9B5C209211F3004EB242 /* cycle */ = {
 			isa = PBXGroup;
 			children = (
+				E25FCCAF209A427500812690 /* Data */,
+				E2C400A120927ADF00AA6277 /* Views */,
+				E2C4009E209263F100AA6277 /* Extensions */,
+				E2C40072209229AD00AA6277 /* Networking */,
+				E2C4005F2092201800AA6277 /* Models */,
 				E2AB9B5D209211F3004EB242 /* AppDelegate.swift */,
-				E2AB9B5F209211F3004EB242 /* ViewController.swift */,
-				E2AB9B61209211F3004EB242 /* Main.storyboard */,
+				E2AB9B5F209211F3004EB242 /* AppViewController.swift */,
 				E2AB9B64209211F3004EB242 /* Assets.xcassets */,
 				E2AB9B66209211F3004EB242 /* LaunchScreen.storyboard */,
 				E2AB9B69209211F3004EB242 /* Info.plist */,
 			);
 			path = cycle;
+			sourceTree = "<group>";
+		};
+		E2C4005A2092144900AA6277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2C4008420923D8900AA6277 /* Alamofire.framework */,
+				E2C4008820923D8900AA6277 /* Moya.framework */,
+				E2C4008220923D8900AA6277 /* Result.framework */,
+				E2C4008320923D8900AA6277 /* RxCocoa.framework */,
+				E2C4008920923D8900AA6277 /* RxMoya.framework */,
+				E2C4008120923D8900AA6277 /* RxSwift.framework */,
+				E2C4008620923D8900AA6277 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2C4005F2092201800AA6277 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2C40060209220E700AA6277 /* Station.swift */,
+				E2C4006C2092219300AA6277 /* StationProperties.swift */,
+				E2C4006E2092259700AA6277 /* JSONAbleType.swift */,
+				E2C40070209225BD00AA6277 /* StationGeometry.swift */,
+				E2C400932092512400AA6277 /* Region.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2C40072209229AD00AA6277 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E2C40073209229EE00AA6277 /* CitibikeAPI.swift */,
+				E2C4007520922B1C00AA6277 /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E2C4009E209263F100AA6277 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2C4009F2092640800AA6277 /* Observable+JSONAble.swift */,
+			);
+			name = Extensions;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		E2C400A120927ADF00AA6277 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2C400A220927E6400AA6277 /* StationTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +178,7 @@
 				E2AB9B56209211F3004EB242 /* Sources */,
 				E2AB9B57209211F3004EB242 /* Frameworks */,
 				E2AB9B58209211F3004EB242 /* Resources */,
+				PETLCUDEQ48YDQ8TPMZ223PM /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -125,18 +230,59 @@
 			files = (
 				E2AB9B68209211F3004EB242 /* LaunchScreen.storyboard in Resources */,
 				E2AB9B65209211F3004EB242 /* Assets.xcassets in Resources */,
-				E2AB9B63209211F3004EB242 /* Main.storyboard in Resources */,
+				E25FCCB1209A429500812690 /* stations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		PETLCUDEQ48YDQ8TPMZ223PM /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxMoya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2AB9B56209211F3004EB242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2AB9B60209211F3004EB242 /* ViewController.swift in Sources */,
+				E2C400A02092640800AA6277 /* Observable+JSONAble.swift in Sources */,
+				E2AB9B60209211F3004EB242 /* AppViewController.swift in Sources */,
+				E2C4006F2092259700AA6277 /* JSONAbleType.swift in Sources */,
+				E2C400A320927E6400AA6277 /* StationTableViewCell.swift in Sources */,
+				E2C40074209229EE00AA6277 /* CitibikeAPI.swift in Sources */,
+				E2C4007620922B1C00AA6277 /* Networking.swift in Sources */,
+				E2C4006D2092219300AA6277 /* StationProperties.swift in Sources */,
+				E2C400942092512400AA6277 /* Region.swift in Sources */,
+				E2C40061209220E700AA6277 /* Station.swift in Sources */,
+				E2C40071209225BD00AA6277 /* StationGeometry.swift in Sources */,
 				E2AB9B5E209211F3004EB242 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +290,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E2AB9B61209211F3004EB242 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2AB9B62209211F3004EB242 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E2AB9B66209211F3004EB242 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,7 +414,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LCFAPK739L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = cycle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.meagher.cycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +434,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LCFAPK739L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = cycle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.meagher.cycle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
