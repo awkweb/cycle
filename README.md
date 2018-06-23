@@ -2,6 +2,8 @@
 
 > Get the most Bike Angel points
 
+![screenshot](screenshot.png)
+
 ## Installation
 
 Install Carthage with [Homebrew](https://brew.sh/) and build dependencies:
