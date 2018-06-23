@@ -1,6 +1,6 @@
 # Cycle
 
-> Get the most Bike Angel points
+> Get the most [Bike Angel](https://www.citibikenyc.com/bikeangels/) points
 
 ![screenshot](screenshot.png)
 
@@ -23,4 +23,3 @@ Drag built `*.framework`s into Cycle's `Linked Frameworks and Libraries` section
 ## License
 
 Cycle is available under the MIT license. See the LICENSE file for more info.
-# cycle
